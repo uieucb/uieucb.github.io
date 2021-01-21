@@ -1,0 +1,49 @@
+.headshot {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+  }
+  .dr-eric-roth { background-position-y: -20px; background-image: url('./img/about/eric-roth.png'); }
+  
+  .dr-gabriel-potvin { background-position-y: -10px; background-image: url('./img/about/Dr.\ Gabriel\ Potvin.jpg'); }
+  
+  .dr-saeid-soltanian { background-image: url('./img/about/Dr.\ Saeid\ Soltanian.jpg'); }
+  
+  .manuel-illanes { background-image: url('./img/about/manuel-illanes.png'); }
+  
+  .alvaro-molina { background-image: url('./img/about/han-nguyen.png'); }
+  
+  .andres-rodriguez{ background-image: url('./img/about/andres-rodriguez.png'); }
+  
+  .dayanne-orellana { background-position-y: 0px; background-image: url('./img/about/dayanne-orellana.png'); }
+  
+  .camila-ponce{ background-image: url('./img/about/camila-ponce.png'); }
+  
+  .riley-zurrin { background-image: url('./img/about/riley-zurrin.png'); }
+  
+  .hamza-peracha { background-image: url('./img/about/placeholder.png'); }
+  
+  .natalia-gosnell { background-position-y: 0px; background-image: url('./img/about/natalia-gosnell.jpg'); }
+  
+  .placeholder { background-image: url('./img/main-page/white-rat.jpg'); }
+  
+  .chaehyeon-lee { background-image: url('./img/main-page/uie-logo-small.png'); }
+  
+  .bruno-ozaki { background-image: url('./img/main-page/uie-logo-small.png'); } 
+  
+  .ryan-sutherland { background-image: url('./img/main-page/uie-logo-small.png'); }
+  
+  .stephanie-quon { background-image: url('./img/about/stephanie-quon.png'); }
+  
+  .josha-heimann { background-image: url('./img/about/placeholder.png'); }
+  
+  .gagan-bhatia { background-image: url('./img/about/placeholder.png'); } 
+  
+  .nadia-djafri { background-image: url('./img/about/placeholder.png'); }
+  
+  .olivia-kim { background-image: url('./img/about/olivia-kim.png'); }
+  
+  
