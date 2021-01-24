@@ -19,6 +19,9 @@
   <!-- Bootstrap Core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+  <!--Font Awesome-->
+<script src="https://kit.fontawesome.com/1ea62bda1b.js" crossorigin="anonymous"></script>
+
   <!-- Custom Fonts -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
@@ -73,22 +76,35 @@
             <h2 class="mb-4">Deep Learning for Afective State Recognition during Gameplay on the GAMEEMO Dataset</h2>
             <p class="lead mb-3">
               
-                Project code on Google Colab <strong><a href=> </a></strong>
+                <h4>Project code on Google Colab </h4>
                 <a href=https://colab.research.google.com/drive/1nvx0KDj3Kuy3g0SxmoFuLhrckPzAFgVy?usp=sharing>
                   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
                 </a>
             </p>
+            <p class="lead mb-3">
+             <h4> Highlights of the Work:</h4>
+              The Database provides EEG-based emotion data with respect to computer games.<br>
+              EEG data was collected with a wearable and portable device that differs from the traditional approaches.<br>
+              The authors of the paper demonstrated the performance of the wearable EEG device in comparison with the traditional ones.<br>
+              Showed the success of computer games in contrast to the other aural-visual stimuli methods composed of video clips and short movies.<br>
+              We segmented the signal in many pieces and used Wavelets to create scalograms of the EEG.<br>
+              We used a type of CNN (Convolutional Neural Network) known as Inception Network to classify emotions.<br>
+            </p>
            
             <section>
-              <div class="mr-5 ml-5">
-                <img src="./img/ntx-ucb/10-20-gameemo.png" class="center" alt="ntxucb-gameemo">
-                <p>The EEG channels used. Green channels are reference electrodes.</p>
+              <div class="text-center">
+                <div class="mr-5 ml-5">
+                  <img src="./img/ntx-ucb/10-20-gameemo.png" class="center" alt="ntxucb-gameemo">
+                  <p>The EEG channels used. Green channels are reference electrodes.</p>
+                </div>
+
               </div>
-              <div class="mr-5 ml-5 " >
+              
+              <div class="mr-5 ml-5 text-center" >
                 <img src="./img/ntx-ucb/arousal-valence-model.png" class="d-inline-block align-top wh- mb-5" alt="ntxucb-gameemo">
                 <p>The arousal-valence model used to measure emotion. </p>
               </div>
-              <div class="mr-5 ml-5 " >
+              <div class="mr-5 ml-5 text-center" >
                 <img src="./img/ntx-ucb/googlenet.webp" class="d-inline-block align-top wh-max mb-5" alt="ntxucb-gameemo">
                 <p>Scheme of a Inception Neural Network. </p>
               </div>
@@ -110,7 +126,8 @@
           <div class="justify-content-center">
             
             <p class="lead mb-3">On the arousal-valence model, the first area includes high arousal positive valence (HAPV) emotions ranging from pleased to excited. Area 2 ranges from nervous to annoying emotions called high arousal negative valence (HANV). Area 3 consists of three negative emotions (sad, bored and sleepy) and can be represented as low arousal negative valence (LANV). The last area is called low arousal positive valence (LAPV) which includes calm to relaxed emotions.</p>
-            <p class="lead mb-3">Other Useful Resources:</p>
+            <h4>Other Useful Resources:</h4>
+         
             <p class="lead mb-3">
                 Gameemo Dataset <strong><a href="https://data.mendeley.com/datasets/b3pn4kwpmn/1#__sid=js0">Dataset</a></strong> 
             </p>
@@ -169,9 +186,7 @@
           <h4>
              <strong>Manuel Illanes</strong>
           </h4>
-          <p class="text-faded mb-0">
-            Mentor to the Neurotech UCB student club.
-          </p>
+          
         </div>
         
         <div class="col-md-3 col-md-4 mb-5">
@@ -196,20 +211,26 @@
   <!-- Footer -->
   <footer class="footer text-center">
     <div class="container">
+      <h4>Follow NTXUCB in our Social Networks</h4>
         <ul class="list-inline mb-5">
           <li class="list-inline-item">
             <a class="social-link rounded-circle text-white mr-3" href="https://www.youtube.com/channel/UCxmiF4Ty6QUqgHjR9GFSOpw">
-              <i class="icon-social-youtube"></i>
+              <i class="fab fa-youtube"></i>
             </a>
           </li>
           <li class="list-inline-item">
             <a class="social-link rounded-circle text-white mr-3" href="https://github.com/uieucb">
-              <i class="icon-social-github"></i>
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="https://www.facebook.com/ntxucb">
+              <i class="fab fa-facebook"></i>
             </a>
           </li>
         </ul>
-      <p>Email: uielabo50@gmail.com</p>
-      <p class="text-muted small mb-0">See any problems, or have some feedback? <a href="mailto:uielabo50@gmail.com">Let us know!</a></p>
+      
+      <p class="text-muted small mb-0"><a href="mailto:uielabo50@gmail.com">Have some feedback? </a></p>
     </div>
   </footer>
 
