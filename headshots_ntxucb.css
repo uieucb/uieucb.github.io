@@ -1,0 +1,23 @@
+.headshot {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+  }
+  .dr-eric-roth { background-position-y: -20px; background-image: url('./img/about/eric-roth.png'); }
+  
+  .manuel-illanes { background-image: url('./img/about/manuel-illanes.png'); }
+  
+  .andres-rodriguez{ background-image: url('./img/about/andres-rodriguez-01.png'); }
+  
+  .bruno-bustos { background-position-y: 0px; background-image: url('./img/about/dayanne-orellana.png'); }
+  
+  .camila-ponce{ background-image: url('./img/about/camila-ponce.png'); }
+  
+  .placeholder { background-image: url('./img/ntx-ucb/ntxucb-logo.jpg'); }
+  
+  
+  
+  
