@@ -99,3 +99,17 @@
     height: 100%;
     margin: auto;
   }
+
+  .inv-title {
+   text-align: center;
+   text-justify: center;
+   
+  }
+
+  .authors {
+   padding-left: 50px; 
+  }
+
+  .abstract {
+    padding-left: 50px;
+  }
