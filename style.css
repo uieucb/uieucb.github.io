@@ -103,14 +103,24 @@
   .inv-title {
    text-align: center;
    text-justify: center;
+   display: inline-block;
    margin-right: 100px;
    margin-left: 100px;
   }
 
   .authors {
-   padding-left: 50px; 
+   text-align: left;
+   display: inline-block;
+      margin-left: 101px;
   }
 
   .abstract {
-    padding-left: 50px;
+    padding-left: 130px;
+  }
+
+  .pub-text {
+    display:inline-block;
+    padding-left: 80px;
+    padding-right: 80px;
+
   }
