@@ -124,3 +124,9 @@
     padding-right: 80px;
 
   }
+
+* {
+  box-sizing: border-box;
+}
+
+.sponsors {float:left; width: 33.33%;}
