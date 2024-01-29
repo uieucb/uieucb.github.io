@@ -12,9 +12,9 @@
   <link rel="icon" href="./img/main-page/uie-logo.PNG">
   <title>UCB UIE - Home</title>
 
-  <!-- Specific CSS-->
+  <!-- Specific CSS -->
   <link href="style.css" rel="stylesheet">
-  
+
   <!-- Bootstrap Core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!--Font Awesome-->
@@ -56,69 +56,92 @@
   <!-- Landing -->
   <section class="content-section">
     <div class="container">
-      <div class="content-section-heading text-center mb-5">
-        <h1 class="text-secondary mb-0">Empathic perspective taking and pro-social behavior</h1>
+    <section id="hero" class="d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="justify-content-center">
+           <h3 class="text-secondary mb-0">Our Projects</h3>
+            <h2 class="mb-4">Deep Learning for Affective State Recognition during Gameplay on the GAMEEMO Dataset</h2>
+            <p class="lead mb-3">
+            
+              <h4>Project code on Google Colab </h4>
+              <a href=https://colab.research.google.com/drive/1li3S05Dv8PBRVcX7zGzUagxVrUELsdnR?usp=sharing target="_blank">
+                <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+              </a>
+            </p>
+            <p class="lead mb-3">
+            <h4> Highlights of the Work:</h4>
+              The Database provides EEG-based emotion data with respect to computer games.<br>
+              EEG data was collected with a wearable and portable device that differs from the traditional approaches.<br>
+              The authors of the paper demonstrated the performance of the wearable EEG device in comparison with the traditional ones.<br>
+              Showed the success of computer games in contrast to the other aural-visual stimuli methods composed of video clips and short movies.<br>
+              We segmented the signal in many pieces and used Wavelets to create scalograms of the EEG.<br>
+              We used a type of CNN (Convolutional Neural Network) known as Inception Network to classify emotions.<br>
+            </p>
+         
+            <section>
+              <div class="text-center">
+                <div class="mr-5 ml-5">
+                  <img src="./img/ntx-ucb/10-20-gameemo.png" class="center" alt="ntxucb-gameemo">
+                  <p>The EEG channels used. Green channels are reference electrodes.</p>
+                </div>
+
+              </div>
+            
+              <div class="mr-5 ml-5 text-center" >
+                <img src="./img/ntx-ucb/arousal-valence-model.png" class="d-inline-block align-top wh- mb-5" alt="ntxucb-gameemo">
+                <p>The arousal-valence model used to measure emotion. </p>
+              </div>
+              <div class="mr-5 ml-5 text-center" >
+                <img src="./img/ntx-ucb/googlenet.webp" class="d-inline-block align-top wh-max mb-5" alt="ntxucb-gameemo">
+                <p>Scheme of a Inception Neural Network. </p>
+              </div>
+
+            </section>
+          
+          </div>
+        </div>
       </div>
-      
+    </section>
     </div>
   </section>
 
-<!-- Picture -->
-<!-- No consigo modificar la imagen con un css externo -->
-    
-  <section>
-    <div class= "text-center">
-      <img src="./img/projects/prosocial.jpg" class="prosocial-img" alt="prosocial" >
-    </div>
-  </section>
-
-<!-- Text -->
-
-  <section>
-    <br>
-    
-
-    <h1> Empathic perspective taking and pro-social behavior: 
-      Experimental evidence of cognitive, affective and social 
-      relationships on the 
-      decision to share resources linked to HRV <h1>
-        <br>
-        <br>
-    <p class="lead mb-3">Authors: Eric Roth, Manuel Illanes, Pablo de la Coba, Dayanne Orellana,
-       Andrés Rodríguez, Elizabeth Ruiz-Padial y Ruth Quiroz
-    </p>
-
-    <br>
-    <br>
-
-   
-
-    <h4>Abstract</h4>
-
-    <br>
-  
-  <div class= "">
-
-    <div class="justify-content-center mr-5 ml-5">
-      <h3 class="text-muted"> 
-        <p align= "justify" class="lead mb-3">The aim of this paper is to provide information on the relationship between perspective taking (PT), empathic concern (EC) and altruistic pro-social behavior. Through a series of experimental tests, information was obtained on the altruistic willingness to offer help in conditions of taking and not taking perspective. This study also sought to explore the relationship between PT and heart rate variability as a psychophysiological index of cognitive processes related to interpersonal activity. Finally, it was also explored whether ethnical membership constitutes a moderator of the relationship between Perspective Taking and empathic pro-social behavior.
-       The results confirmed both the predictive capacity of PT and EC of pro-social behavior and showed a strong relationship of PT, with vagally mediated heart rate variability. The ethnic variable did not show any relationship with self-report measures of PT, EC, and pro-social behavior, but it was strongly related to the willingness to share or retain economic resources in the Dictator game. 
-       <br>
-       <br>
-       Key Words: Perspective taking, empathic concern, prosocial behavior, heart rate variability, Aymara ethnic group.
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="justify-content-center">
+          
+          <p class="lead mb-3">On the arousal-valence model, the first area includes high arousal positive valence (HAPV) emotions ranging from pleased to excited. Area 2 ranges from nervous to annoying emotions called high arousal negative valence (HANV). Area 3 consists of three negative emotions (sad, bored and sleepy) and can be represented as low arousal negative valence (LANV). The last area is called low arousal positive valence (LAPV) which includes calm to relaxed emotions.</p>
+          <h4>Other Useful Resources:</h4>
+       
+          <p class="lead mb-3">
+              Gameemo Dataset <strong><a href="https://data.mendeley.com/datasets/b3pn4kwpmn/1#__sid=js0">Dataset</a></strong> 
+          </p>
+          <p class="lead mb-3">    
+              Gameemo paper: <strong><a href="https://linkinghub.elsevier.com/retrieve/pii/S1746809420301075"> Database for an emotion recognition system based on EEG signals and various computer games</a></strong>             
+          </p>
+          <p class="lead mb-3">   
+              InceptionV3 Neural network article: <strong><a href="https://keras.io/api/applications/inceptionv3/">The Transfer/Domain/Few Shot Learning Model we used</a></strong> 
+          </p>
+          
+          <p class="lead mb-3">   
+              Inception Nets Intro: <strong><a href="https://www.analyticsvidhya.com/blog/2018/10/understanding-inception-network-from-scratch/">Inception Nets Theory</a></strong> 
+          </p>
+          <p class="lead mb-3">   
+            Learn Keras with examples: <strong><a href="https://keras.io/examples/">Keras Example Codes</a></strong> 
         </p>
-      </h3>  
-    </div>    
-  </div>
-
-  <br>
-  
-
-     
-    
-
+          <p class="lead mb-3">   
+            Friendly Intro to Wavelets: <strong><a href="https://ataspinar.com/2018/12/21/a-guide-for-using-the-wavelet-transform-in-machine-learning/">Wavelets and CNNs</a></strong> 
+          </p>
+          <p class="lead mb-3">   
+          A Background on the emotion classification problem: <strong><a href="https://en.wikipedia.org/wiki/Emotion_classification">What is Emotion Classification?</a></strong> 
+          </p>
+          
+          
+        </div>
+      </div>
+    </div>
   </section>
-
 
   <!-- Map -->
   <br>
